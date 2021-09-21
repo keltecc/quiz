@@ -1,0 +1,56 @@
+[
+    {
+        "text": "variant_question1",
+        "answer": {
+            "variants": [
+                {
+                    "text": "wrong1"
+                },
+                {
+                    "text": "wrong2"
+                },
+                {
+                    "text": "correct",
+                    "correct": true
+                },
+                {
+                    "text": "wrong3"
+                }
+            ]
+        }
+    },
+    {
+        "text": "text_question1",
+        "answer": {
+            "text": "correct"
+        }
+    },
+    {
+        "text": "variant_question2_shuffle",
+        "answer": {
+            "variants": [
+                {
+                    "text": "wrong1"
+                },
+                {
+                    "text": "wrong2"
+                },
+                {
+                    "text": "correct",
+                    "correct": true
+                },
+                {
+                    "text": "wrong3"
+                }
+            ],
+            "shuffle": true
+        }
+    },
+    {
+        "text": "text_question2_fuzzy",
+        "answer": {
+            "text": "correct"
+        },
+        "fuzzy": true
+    }
+]
